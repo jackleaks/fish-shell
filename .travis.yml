@@ -92,4 +92,4 @@ deploy:
   on:
     repo: fish-shell/fish-shell
     branch: macos_continuous_deployment_experiment
-    condition: $TRAVIS_OS_NAME = osx
+    condition: $TRAVIS_OS_NAME = linux
